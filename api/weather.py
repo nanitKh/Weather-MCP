@@ -138,9 +138,13 @@ async def get_products(limit: int = 50) -> dict:
 # Runn MCP Servere
 
 app = mcp.asgi_app()
-"""
 
-if __name__ == "__main__":
+
+"""if __name__ == "__main__":
     # Local development (runs on http://localhost:8000)
-    mcp.run(transport="streamable-http", host="0.0.0.0", port=8000)*/
+    mcp.run(transport="streamable-http", host="0.0.0.0", port=8000)
 """
+"""if __name__ == "__main__":
+    print("Hello")
+    # Local development (runs on http://localhost:8000)
+    mcp.run(transport="stdio")"""
