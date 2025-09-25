@@ -140,4 +140,4 @@ async def get_products(limit: int = 50) -> dict:
 if __name__ == "__main__":
     # Initialize and run the server
     print('Hello')
-    mcp.run(transport='stdio')
+    mcp.run(transport="streamable-http")
